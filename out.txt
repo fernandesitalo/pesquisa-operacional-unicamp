@@ -1,0 +1,35 @@
+Set parameter Username
+Academic license - for non-commercial use only - expires 2022-05-25
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (linux64)
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+Optimize a model with 3100 rows, 57200 columns and 166400 nonzeros
+Model fingerprint: 0xd47d402f
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+00]
+  Objective range  [1e+01, 1e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+01, 1e+03]
+
+Concurrent LP optimizer: dual simplex and barrier
+Showing barrier log only...
+
+Presolve removed 2080 rows and 238 columns
+Presolve time: 0.04s
+Presolved: 1020 rows, 56962 columns, 108962 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 5.200e+04
+ Factor NZ  : 1.035e+05 (roughly 24 MB of memory)
+ Factor Ops : 1.394e+07 (less than 1 second per iteration)
+ Threads    : 3
+
+Barrier performed 0 iterations in 0.05 seconds (0.07 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Solved in 515 iterations and 0.05 seconds (0.07 work units)
+Infeasible model
